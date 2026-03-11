@@ -20,5 +20,5 @@ MonoBehaviour:
   telemetryProjectGuid: d5a771d7-2080-4db1-bd78-2010591a18ac
   bodyTrackingFidelity: 1
   bodyTrackingJointSet: 0
-  allowVisibilityMesh: 0
+  allowVisibilityMesh: 1
   QuestVisibilityMeshOverriden: 0
