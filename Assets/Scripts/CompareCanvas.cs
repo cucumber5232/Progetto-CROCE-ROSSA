@@ -3,6 +3,7 @@ using UnityEngine;
 public class CompareCanvas : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject canvas2;
     public void Compare()
     {
         if(canvas!=null)
@@ -10,6 +11,7 @@ public class CompareCanvas : MonoBehaviour
             if(canvas.activeSelf == true)
             {
                 canvas.SetActive(false);
+                canvas2.SetActive(false);
             }
 
             else
@@ -17,5 +19,21 @@ public class CompareCanvas : MonoBehaviour
                 canvas.SetActive(true);
             }
         }    
+    }
+
+    public void Ustioni()
+    {
+        if (canvas2!=null)
+        {
+            if(canvas2.activeSelf==true)
+            {
+                canvas2.SetActive(false);
+            }
+
+            else
+            {
+                canvas2.SetActive(true);
+            }
+        }
     }
 }
