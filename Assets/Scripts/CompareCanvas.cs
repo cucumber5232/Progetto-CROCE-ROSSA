@@ -2,18 +2,27 @@ using UnityEngine;
 
 public class CompareCanvas : MonoBehaviour
 {
+
     public GameObject patologie;
     public GameObject trattamenti;
     public GameObject ustioni;
 
-    public void Patologie()
+    
+    public GameObject canvas;
+    public GameObject canvas2;
+    public void Compare()
     {
         if (patologie!=null)
         {
             if(patologie.activeSelf==true)
             {
+
                 patologie.SetActive(false);
                 ustioni.SetActive (false);
+
+                canvas.SetActive(false);
+                canvas2.SetActive(false);
+
             }
 
             else
@@ -53,4 +62,20 @@ public class CompareCanvas : MonoBehaviour
             }
         }
     }
+
+    //public void Ustioni()
+    //{
+    //    if (canvas2!=null)
+    //    {
+    //        if(canvas2.activeSelf==true)
+    //        {
+    //            canvas2.SetActive(false);
+    //        }
+
+    //        else
+    //        {
+    //            canvas2.SetActive(true);
+    //        }
+    //    }
+    //}
 }
