@@ -3,7 +3,37 @@ guid: add7a77e0f3713b46a66573efe4887d1
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abrasione2
+    second: {fileID: 2100000, guid: 565fb22873bca7f458e62c2286757965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abrasione_1
+    second: {fileID: 2100000, guid: fc38a16aad1ccbd4f9438efb28d688ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cintura
+    second: {fileID: 2100000, guid: 035a0c341dcdc604db7fc8419a133d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Livido1
+    second: {fileID: 2100000, guid: 8f0fa8c038a36314b98fc69468f5f46e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marezzatura
+    second: {fileID: 2100000, guid: d619d25499874ea4885069f6deac5de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 5b07b95dd3263a849a8aebabef7c3634, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
