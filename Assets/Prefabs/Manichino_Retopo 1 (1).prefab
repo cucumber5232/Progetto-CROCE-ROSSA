@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4859908801943995145}
   m_Layer: 0
   m_Name: Segno_Cintura2
-  m_TagString: Untagged
+  m_TagString: Cintura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 374602077716733155}
   m_Layer: 0
   m_Name: Segno_Cintura3
-  m_TagString: Untagged
+  m_TagString: Cintura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 4991542567741575593}
   m_Layer: 0
   m_Name: Segno_Cintura4
-  m_TagString: Untagged
+  m_TagString: Cintura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,6 +342,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1072816714179694145, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
+      propertyPath: m_TagString
+      value: Abrasione
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
       propertyPath: m_Name
       value: Manichino_Retopo 1 (1)
@@ -350,17 +354,33 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
+      propertyPath: m_TagString
+      value: Manichino
+      objectReference: {fileID: 0}
     - target: {fileID: 5294436318402867714, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294436318402867714, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
+      propertyPath: m_TagString
+      value: Livido
       objectReference: {fileID: 0}
     - target: {fileID: 6346307046785424535, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6346307046785424535, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
+      propertyPath: m_TagString
+      value: Marezzatura
+      objectReference: {fileID: 0}
     - target: {fileID: 8293248924807880486, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293248924807880486, guid: add7a77e0f3713b46a66573efe4887d1, type: 3}
+      propertyPath: m_TagString
+      value: Abrasione
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -456,6 +476,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3b88e31bb145671449ea09ed99dab3c0, type: 3}
+      propertyPath: m_TagString
+      value: Livido
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -533,6 +557,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cd199f5e91af5c94eae531ee43fb3fbf, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd199f5e91af5c94eae531ee43fb3fbf, type: 3}
+      propertyPath: m_TagString
+      value: Cintura
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
