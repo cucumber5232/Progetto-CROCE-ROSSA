@@ -2,8 +2,26 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - QDSUISecondaryButton
+  - QDSUIIcon
+  - HeatPad
+  - QDSUIBackplateGradient
+  - CoolingGel
+  - Defribrillatore
+  - benda
+  - disinfettante
+  - Manichino
+  - Livido
+  - Marezzatura
+  - Shock_Anafilattico
+  - Ustione_I_grado
+  - Ustione_II_grado
+  - Ustione_III_grado
+  - Defibrillazione
+  - Cintura
+  - Abrasione
   layers:
   - Default
   - TransparentFX
@@ -12,9 +30,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
+  - Hands
+  - Trattamenti
+  - Liquidi
   - 
   - 
   - 
@@ -50,27 +68,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
